@@ -1,0 +1,646 @@
+[
+  {
+    "name":"The King John Inn",
+    "address":"Tollard Royal, Salisbury, SP5 5PS",
+    "phone":"01725 516207",
+    "website":"www.kingjohninn.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Cottage (The King John Inn)",
+    "address":"Tollard Royal, Salisbury, SP5 5PS",
+    "phone":"01725 516207",
+    "website":"www.kingjohninn.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Museum Inn",
+    "address":"Farnham, Salisbury Wilthshire DT11 8DE",
+    "phone":"01725 516261",
+    "website":"www.museuminn.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"Moles Cottage (The Museum Inn)",
+    "address":"Farnham, Salisbury Wilthshire DT11 8DE",
+    "phone":"01725 516261",
+    "website":"www.mueuminn.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Talbot Inn",
+    "address":"Iwerne Minster, Nr Blandford, Dorset DT11 8QN",
+    "phone":"01747 811269",
+    "website":"www.talbot-hotel.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Fontmell",
+    "address":"Fontmell Magna SP7 0PA",
+    "phone":"01747 811441",
+    "website":"www.thefontmell.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Beckford Arms",
+    "address":"Fonthill Bishop, Wiltshire SP3 6PX",
+    "phone":"01747 870385",
+    "website":"www.beckfordarms.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Grosvenor Arms",
+    "address":"The Commons, Shaftesbury, Dorset, SP7 8JA",
+    "phone":"01747 850580",
+    "website":"http://www.thegrosvenorarms.co.uk/stay/",
+    "type":"Hotel"
+  },
+  {
+    "name":"La Fosse at Cranborne",
+    "address":"The Square, Cranborne BH21 5PR",
+    "phone":"01725 517604",
+    "website":"www.la-fosse.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The White Hart Hotel",
+    "address":"St John Street, Salisbury, Wiltshire, SP1 2SD",
+    "phone":"01722 327476",
+    "website":"http://www.mercure.com/gb/hotel-6616-mercure-salisbury-white-hart-hotel/index.shtml",
+    "type":"Hotel"
+  },
+  {
+    "name":"Red Lion Hotel",
+    "address":"Millford Street, Salisbury, Wiltshire, SP1 2AN",
+    "phone":"01722 323334",
+    "website":"www.the-redlion.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"St. Anns' House",
+    "address":"32-34 St Ann Street, Salisbury, Wiltshire SP1 2DP",
+    "phone":"01722 335657",
+    "website":"www.stannshouse.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Crown Hotel",
+    "address":"West Street, Blandford Forum DT11 7AJ",
+    "phone":"01258 456626",
+    "website":"http://crownhotelblandford.co.uk/",
+    "type":"Hotel"
+  },
+  {
+    "name":"Millford Hall Hotel",
+    "address":"206 Castle Street, Salisbury, SP1 3TE",
+    "phone":"01722 417411",
+    "website":"www.milfordhallhotel.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Kings Head Hotel",
+    "address":"The Square, Wimborne Minster, Dorset, BH21 1JG",
+    "phone":"01202 880101",
+    "website":"www.thekingsheadhotel.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Anvil Hotel / Inn",
+    "address":"Salisbury Road, Pimperne, Dorset, DT11 8UQ",
+    "phone":"01258 453431",
+    "website":"www.anvilhotel.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"Plumber Manor Country House Hotel",
+    "address":"Sturminster Newton, Dorset, DT10 2AF",
+    "phone":"01258 472507",
+    "website":"www.plumbermanor.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Fox Inn",
+    "address":"Ansty, Dorchester, Dorset, DT2 7PN",
+    "phone":"01258 880328",
+    "website":"www.anstyfoxinn.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Coppleridge Inn",
+    "address":"Motcombe, Shaftesbury, Dorset, SP7 9HW",
+    "phone":"01747 851980",
+    "website":"www.coppleridge.com",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Horton Inn",
+    "address":"Cranborne Road, Horton, Wimborne, Dorset BH21 5AD",
+    "phone":"01258 840252",
+    "website":"",
+    "type":"Hotel"
+  },
+  {
+    "name":"Howards House Hotel",
+    "address":"Teffont Evias, Salisbury, Wiltshire, SP3 5RJ",
+    "phone":"01722 716392",
+    "website":"www.howardshousehotel.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"Stockhill Country House Hotel",
+    "address":"Gillingham, Dorset, SP8 5NR",
+    "phone":"01747 823626",
+    "website":"www.stockhillhouse.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Castleman Restaurant",
+    "address":"Chettle, Dorset DT11 8DB",
+    "phone":"01258 830096",
+    "website":"http://www.castlemanhotel.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Grove Arms",
+    "address":"Ludwell, Nr Shaftesbury, Dorset, SP7 9ND",
+    "phone":"01747 828811",
+    "website":"www.grovearms-ludwell.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"The Benett Arms",
+    "address":"Semley, Nr Shaftesbury, Dorset",
+    "phone":"01747 830221",
+    "website":"www.benettarms.co.uk",
+    "type":"Hotel"
+  },
+  {
+    "name":"Park Farm House B&B",
+    "address":"Tollard Royal",
+    "phone":"01725 553134",
+    "website":"www.bandbtollardroyal.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Perry Cottage",
+    "address":"Tollard Royal",
+    "phone":"01725 516320",
+    "website":"http://www.perrycottagebb.com/",
+    "type":"B&B"
+  },
+  {
+    "name":"Farnham Farmhouse",
+    "address":"Farnham, Blandford Forum, Dorset DT11 8DG",
+    "phone":"01725 516254",
+    "website":"www.farnhamfarmhouse.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Dewberry Cottage",
+    "address":"Sedgehill, Shaftesbury, Dorset SP7 9HQ",
+    "phone":"01747 855716",
+    "website":"http://www.bandbshaftesburydorset.co.uk/",
+    "type":"B&B"
+  },
+  {
+    "name":"Hill House",
+    "address":"Hill House, Blandford Forum, Dorset",
+    "phone":"1258 480074",
+    "website":"www.hillhousedorset.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Middle Farm",
+    "address":"Middle Farm, Hartgrove, Dorset SP7 0JY",
+    "phone":"01747 811031",
+    "website":"www.milddefarmhartgrove.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Manor Barn",
+    "address":"Manor Barn, Child Okeford DT11 8EF",
+    "phone":"01258 860638",
+    "website":"www.manorbarnbedandbreakfast.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Launceston Farm",
+    "address":"Tarrant Launceston, Dorset DT11 8BY",
+    "phone":"01258 830528",
+    "website":"www.launcestonfarm.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"The Old Rectory",
+    "address":"Farnham, Dorset DT11 8DE",
+    "phone":"01725 516474",
+    "website":"vicky.forbes@hotmail.com",
+    "type":"B&B"
+  },
+  {
+    "name":"Glebe Farm",
+    "address":"Ashmore, Shaftesbury, Dorset, SP5 5AE",
+    "phone":"01747 811104",
+    "website":"www.glebefarmbandb.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"The Old Mill",
+    "address":"Spetisbury, Blandford Forum, Dorset, DT11 9DF",
+    "phone":"01258 456014",
+    "website":"http://www.theoldmillspetisbury.com/   ",
+    "type":"B&B"
+  },
+  {
+    "name":"Mere Worth House",
+    "address":"Donhead St Andrew",
+    "phone":"01747 828640",
+    "website":"www.mereworthhouse.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Tilley's Hut",
+    "address":"The Hayloft, Barfoot Farm, Melbury Abbas SP7 0DB",
+    "phone":"01747 854375",
+    "website":"www.tilleyshut.com",
+    "type":"B&B"
+  },
+  {
+    "name":"Foxpath",
+    "address":"Di Garland, Foxpath, Cann Common, Shaftesbury SP7 0DL",
+    "phone":"01747 852695",
+    "website":"briarlands@aol.com",
+    "type":"B&B"
+  },
+  {
+    "name":"Whispering Chimneys",
+    "address":"Whispering Chimneys, Iwerne Minster, Dorset",
+    "phone":"01747 812412",
+    "website":"www.whisperingchimneys.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Wardour Bed and Breakfast",
+    "address":"Higher Compton, Wardour Lane, Donhead St Andrew",
+    "phone":"01747 828285",
+    "website":"http://www.wardourbandb.co.uk/",
+    "type":"B&B"
+  },
+  {
+    "name":"Bedchester B&B",
+    "address":"Bedchester, Nr Fontmell Magna",
+    "phone":"01747 812242",
+    "website":"www.bedchester.net",
+    "type":"B&B"
+  },
+  {
+    "name":"Milestones Restaurant",
+    "address":"Compton Abbas, Shaftesbury, Dorset SP7 0NL",
+    "phone":"01747 812263",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"The Thatch",
+    "address":"Farnham, Blandford Forum, Dorset DT11",
+    "phone":"01725 516277",
+    "website":"sheathsmith@btopenworld.com",
+    "type":"B&B"
+  },
+  {
+    "name":"The Rokeby Guest House",
+    "address":"3 Wain-a-Long Road, Salisbury Wiltshire SP1 1LJ",
+    "phone":"01722 329800",
+    "website":"www.rokebyguesthouse.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"The Retreat",
+    "address":"47 Bell Street, Shaftesbury, Dorset, SP7 8AE",
+    "phone":"01747 850372",
+    "website":"www.the-retreat.org.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"St Ann's House",
+    "address":"32-34 St Ann Street, Salisbury, SP1 2DP",
+    "phone":"01722 335657",
+    "website":"http://www.stannshouse.co.uk/rooms.php",
+    "type":"B&B"
+  },
+  {
+    "name":"The Old Bank",
+    "address":"Burton Street, Marnhull, Sturminster Newton, DT10 1PH",
+    "phone":"01258 821019",
+    "website":"www.theoldbank-marnhull.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Cashmoor House",
+    "address":"Cashmoor, Blandford Forum, Dorset, DT11 8DN",
+    "phone":"01725 552399",
+    "website":"www.cashmoorhouse.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"The Chalet",
+    "address":"Christy's Lane, Shaftesbury, Dorset, SP7 8DL",
+    "phone":"01747 853945",
+    "website":"www.thechalet.biz",
+    "type":"B&B"
+  },
+  {
+    "name":"Ducks Nest",
+    "address":"Tenantry Farm, Rockbourne Fordingbridge SP6 3PA",
+    "phone":"01725 518657",
+    "website":"www.bnb-ducksnest.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Ivy Cross House",
+    "address":"1, Ivy Cross, Shaftesbury, Dorset, SP7 8DW",
+    "phone":"01747 85005",
+    "website":"www.ivycrosshouse.com",
+    "type":"B&B"
+  },
+  {
+    "name":"3 Ivy Cross",
+    "address":"3, Ivy Cross, Shaftesbury, Dorset, SP7 8DW",
+    "phone":"01747 853837",
+    "website":"www.3ivycross.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Cedar Lodge (Eco Friendly)",
+    "address":"5 Deweys Place, Ludwell, Nr Shaftesbury, Dorset",
+    "phone":"01747 829240",
+    "website":"www.cedarlodge.org.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Portman Lodge",
+    "address":"Whitecliff Mill Street, Blandford Forum, Dorset, DT11 7BP",
+    "phone":"01258 453727",
+    "website":"www.portmanlodge.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"St Leonards Farmhouse",
+    "address":"Wimborne Road, Blandford Forum, Dorset, DT11 7SB",
+    "phone":"01258 456635",
+    "website":"www.stleonardsfarmhouse.com",
+    "type":"B&B"
+  },
+  {
+    "name":"Yew House Farm",
+    "address":"Hussey, Marnhull, Dorset, DT10 1PD",
+    "phone":"01258 820412",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Oakdale House",
+    "address":"Donhead St Andrew",
+    "phone":"01747 828767",
+    "website":"www.oakdalehouse.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Pear Tree House",
+    "address":"Bittles Green, Motcombe, Shaftesbury, Dorset SP7 9NX",
+    "phone":"01747 852647",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Bryanston Cottage",
+    "address":"Bryanston Street, Blandford Forum, Dorset",
+    "phone":"01258 452746",
+    "website":"www.bryanstoncottage.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Dunbury Heights",
+    "address":"Milton Abbas, Blandford Forum, Dorset, DT11 0UN",
+    "phone":"01258 880445",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Park Lodge Bungalow",
+    "address":"Whitecliff Mill Street, Blandford Forum, Dorset, DT11 7BN",
+    "phone":"01258 452834",
+    "website":"www.park-lodge-blandford.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Beechcroft",
+    "address":"Ashwood Row, Bryanston, Blandford Forum, Dorset, DT11 0PN",
+    "phone":"01258 488868",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Chasborough Farm",
+    "address":"Gotham, Cranborne, Wimborne, BH21 5QY",
+    "phone":"01202 813166",
+    "website":"www.chaseboroughfarm.co.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Cliff House",
+    "address":"Breach Lane, Shaftesbury, Dorset, SP7 8LF",
+    "phone":"01747 852548",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Manor House Farm",
+    "address":"Ibberton, Blandford Forum, Dorset, DT11 0EN",
+    "phone":"01258 817349",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"2 Ivy Cross",
+    "address":"2, Ivy Cross, Shaftesbury, Dorset, SP7 8DW",
+    "phone":"01747 853430",
+    "website":"",
+    "type":"B&B"
+  },
+  {
+    "name":"Cobwebbs",
+    "address":"14 Gold Hill, Shaftesbury, Dorset, SP7 8HB",
+    "phone":"01747 853505",
+    "website":"www.cobwebbs.me.uk",
+    "type":"B&B"
+  },
+  {
+    "name":"Lime Tree Cottage",
+    "address":"Deanland, Sixpenny Handley",
+    "phone":"07779 164558",
+    "website":"http://www.hideaways.co.uk/holiday-cottage/lime-tree-cottage-H309",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Beech Cottage",
+    "address":"Deanland, Sixpenny Handley",
+    "phone":"07779 164558",
+    "website":"http://www.hideaways.co.uk/holiday-cottage/beech-cottage-H308",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Stour Cross Farm Chalets",
+    "address":"Chris Trim, Stour Cross Farm, West Stour, Gillingham SP8 5SE",
+    "phone":"01747 838183",
+    "website":"www.deepestdorset.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Updown Cottage",
+    "address":"Gold Hill Shaftesbury",
+    "phone":"",
+    "website":"http://www.updowncottage.co.uk/index.htm",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Sarunds Cottage",
+    "address":"Farnham, Dorset",
+    "phone":"",
+    "website":"http://www.sarundscottage.co.uk/5.html",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Applehay Studio",
+    "address":"Church Green, Semley, Nr Shaftesbury,Dorset, SP7 9AU",
+    "phone":"01747 830474",
+    "website":"www.applehaystudio.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"No53 Durweston",
+    "address":"53 Durweston, Blandford Forum, Dorset DT11 0QA",
+    "phone":"",
+    "website":"www.53durweston.com",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Welcome Cottages",
+    "address":"Throughout Dorset",
+    "phone":"",
+    "website":"www.welcomecottages.com",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Karelia Finnish Log Cabins",
+    "address":"Ashley, Ringwood, Dorset, BH24 2EE",
+    "phone":"01425 478920",
+    "website":"www.kareliaholidays.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"The Old Rectory",
+    "address":"Lower Blandford St Mary, Blandford, Dorset DT11 9ND",
+    "phone":"01258 453220",
+    "website":"",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Little Hewish Barn",
+    "address":"Milton Abbas, Blandford Forum, Dorset DT11 0DP",
+    "phone":"01258 881235",
+    "website":"",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Luccombs",
+    "address":"Milton Abbas, Blandford Forum, Dorset DT11 0BE",
+    "phone":"01258 881558",
+    "website":"www.luccombeholidays.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Park Farm",
+    "address":"Milton Abbas, Blandford Forum, Dorset DT11 0AY",
+    "phone":"01258 880828",
+    "website":"www.parkfarmcottages.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"West Pimperne Farm Cottages",
+    "address":"Pimperne, Blandford Forum, Dorset, DT11",
+    "phone":"01258 454628",
+    "website":"",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Hideaways",
+    "address":"Chapel House, Berwick St John, Shaftesbury, Dorset, SP7 0HQ",
+    "phone":"01747 828000",
+    "website":"www.hideaways.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"The Old Forge",
+    "address":"Compton Abbas, Shaftesbury, Dorset, SP7 0NQ",
+    "phone":"01747 811881",
+    "website":"www.theoldforgedorset.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Northwood Cottages",
+    "address":"Manston, Nr Sturminster Newton, Dorset, DT10 1HD",
+    "phone":"01258 472666",
+    "website":"www.northwoodcottages.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Manor Farm Cottages",
+    "address":"Sutton Mandeville, Nr Salisbury, Wiltshire, SP3 5NL",
+    "phone":"01722 714226",
+    "website":"www.strangcottages.com",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Vale Farm Holiday Lets",
+    "address":"Vale Farm Sutton Waldron, Blandford Forum, Dorset, DT11 8PG",
+    "phone":"01747 811286",
+    "website":"www.valeholidays.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Thatch Cottage",
+    "address":"15 Gold Hill, Shaftesbury, Dorset, SP7 8HB",
+    "phone":"02380 265945",
+    "website":"www.thatchcottage.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Whitebridge Farm Cottages",
+    "address":"Whitebridge Farm, Semley, Nr Shaftesbury, Dorset, SP7 9JT",
+    "phone":"01747 830462",
+    "website":"www.whitebridgeholidaycottages.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Taddlestones Cottage",
+    "address":"Tarrant Monkton, Nr Blandford Forum, Dorset DT11 8RX",
+    "phone":"01258 830225",
+    "website":"www.thelangtonarms.co.uk/Taddlestones.htm",
+    "type":"Self Catering"
+  },
+  {
+    "name":"The Old Forge",
+    "address":"Compton Abbas, Shaftesbury, Dorset, SP7 0NQ",
+    "phone":"01747 811881",
+    "website":"www.theoldforgedorset.co.uk",
+    "type":"Self Catering"
+  },
+  {
+    "name":"Northwood Cottages",
+    "address":"Manston, Nr Sturminster Newton, Dorset, DT10 1HD",
+    "phone":"01258 472666",
+    "website":"www.northwoodcottages.co.uk",
+    "type":"Self Catering"
+  }
+]
