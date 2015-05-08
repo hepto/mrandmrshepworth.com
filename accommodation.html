@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div>
+
+<table>
+
+{% for accommodation in site.data.accommodations %}
+	<tr>
+	  <td>
+		  {{ accommodation.name }}
+	  </td>
+	  <td>
+		  {{ accommodation.phone }}
+	  </td>
+	  <td>
+		  <a href="{{ accomodation.website }}">{{ accommodation.website }}</a>
+	</td>
+	<td>
+		{{ accommodation.type }}
+	</td>
+		 
+	</tr>
+{% endfor %}
+
+</table>
+
+
+</div>
