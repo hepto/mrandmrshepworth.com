@@ -1,9 +1,9 @@
 # Site settings
-title: "Greg & Laura's Wedding"
-email: rsvp@newshineyweddingdomain.com
-description: All the details for Greg @ Laura's wedding at Larmer Tree Gardens on 28 May 2016!
-baseurl: "/wedding" # the subpath of your site, e.g. /blog/
-url: "http://newshineyweddingdomain.com" # the base hostname & protocol for your site
+title: "Mr & Mrs Hepworth"
+email: rsvp@mrandmrshepworth.com
+description: "All the details for Greg & Laura's wedding at Larmer Tree Gardens on 28 May 2016!"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.mrandmrshepworth.com" # the base hostname & protocol for your site
 
 # Build settings	
 markdown: kramdown
