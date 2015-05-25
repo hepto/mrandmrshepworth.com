@@ -7,10 +7,10 @@ layout: default
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-heart-o"></i>  <span class="light">Mr &amp; Mrs</span> Hepworth
+                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>  <span class="light">Mr &amp; Mrs</span> Hepworth
             </a>
         </div>
 
@@ -22,13 +22,19 @@ layout: default
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#venue">The Venue</a>
+                    <a class="page-scroll" href="#details">Details</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#venue">Venue</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#travel">Travel</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#accomodation">Accomodation</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#registry">Registry</a>
                 </li>
             </ul>
         </div>
@@ -42,75 +48,97 @@ layout: default
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1 class="intro-lead">Mr &amp; Mrs Hepworth</h1>
-                    <h4 class="intro-text">Larmer Tree Gardens</h1>
-                    <h4 class="intro-text">28th May 2016</h1>
-                    <a href="#venue" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
-                </div>
+	            <h1 class="intro-lead">Laura &amp; Greg</h1>
+	            <p class="intro-text">Saturday, 28th May 2016<br>Larmer Tree Gardens</p>
+	            <a href="#details" class="btn btn-circle page-scroll">
+	                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+	            </a>
             </div>
         </div>
     </div>
 </header>
 
-<section id="venue" class="content-section text-center">
-    <div class="venue-section">
+<section id="details" class="content-section text-center">
+    <div class="background-section details">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Larmer Tree Gardens</h2>
-                <p>Info about Larmer Tree Gardens.</p>
+				<p>Laura and Greg joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends.</p>
+                <p>The 'I do's' will happen at 1pm, carriages at 12:30.</p>
+				<p>For evening guests, feel free to arrive around 6pm to enjoy the gardens, and we epxect speeches etc to conlude around 7pm.</p>
+				<p>On the sunday, we are planning to have a BBQ on Bournemouth Beach to wind down.</p>
+				<a href="mailto:rsvp@mrandmrshepworth.com" class="btn btn-default btn-lg">RSVP</a>
+				<p>Attire</p>
+				<p>Registry</p>
             </div>
         </div>
     </div>
 </section>
 
-<div id="map"></div>
+<section id="venue" class="content-section text-center">
+    <div class="background-section venue">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>The Larmer Tree Gardens</h2>
+                <p>Set in the outstanding landscape of the Cranborne Chase on the border of Dorset &amp; Wiltshire, these beautifully laid out gardens were created by General Pitt Rivers in 1880. Recognised by English Heritage as a Garden of National Importance, they were first privately owned gardens to be opened for public enjoyment.</p>
+<p>With 11 acres of gardens, including a large lawn for garden games, home to free roaming peacocks and pair of macaws, and host of a music festival every year, it is the perfect location us to celebrate our wedding with friends and family.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="travel" class="content-section text-center">
     <div class="download-section">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Travel Arrangements</h2>
-                <p>Info about travel arrangements.</p>
+                <p>We'd like you to enjoy the day as much as possible, so to help out we are considering putting on a coach to take people back from the venue to stops in Wimborne, Poole and Bournemouth.  We'd like to see how people think about this, so if you think you'd like to take advantage of the coach please <a href="mailto:rsvp@mrandmrshepworth.com">e-mail</a> us to let us know.</p>
             </div>
         </div>
     </div>
 </section>
 
+<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6185.582011012191!2d-2.082617!3d50.951342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873b776318bf3b5%3A0xc183f94e5ea23f3d!2sLarmer+Tree%2C+Tollard+Royal%2C+Salisbury%2C+Wiltshire+SP5+5PY%2C+UK!5e1!3m2!1sen!2suk!4v1432398143432" width="100%" height="100%" frameborder="0" style="border:0"></iframe></div>
+
 <section id="accomodation" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Accomodation</h2>
-			<table>
+			<p>For people travelling from afar and staying for the weekend, we recommend finding a hotel in Bournemouth and travelling to the venue on the day so we can spend time with you over the weekend, including the BBQ on the Sunday.  Get in touch if you want advice on where to stay in Bournemouth.</p>
+			<p>For those of you who do want to stay overnight near the Larmer Tree, here is a list of hotels and B&amp;B's that are in the local area.</p>
+			<p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#accomodationList" aria-expanded="false" aria-controls="collapseExample">
+			  Show Accomodation List
+			</button></p>
+		
+			<div class="collapse" id="accomodationList">
+				
+				<div class="panel panel-default">
+					<table class="table">
+					{% for accommodation in site.data.accommodations %}
+						<tr>
+							<td>
+								{{ accommodation.name }}
+							</td>
+							<td>
+								{{ accommodation.phone }}
+							</td>
+							<td>
+								<a href="{{ accomodation.website }}">{{ accommodation.website }}</a>
+							</td>
+						</tr>
+					{% endfor %}
+					</table>
+				</div>
 
-			{% for accommodation in site.data.accommodations %}
-				<tr>
-				  <td>
-					  {{ accommodation.name }}
-				  </td>
-				  <td>
-					  {{ accommodation.phone }}
-				  </td>
-				  <td>
-					  <a href="{{ accomodation.website }}">{{ accommodation.website }}</a>
-				</td>
-				<td>
-					{{ accommodation.type }}
-				</td>
-	 
-				</tr>
-			{% endfor %}
+			</div>
+			
 
-			</table>
         </div>
     </div>
 </section>
 
 <footer>
     <div class="container text-center">
-        <p>Mr &amp; Mrs Hepworth</p>
+        <p>Mr &amp; Mrs Hepworth | Larmer Tree Gardens | 28th May 2016</p>
     </div>
 </footer>
 
