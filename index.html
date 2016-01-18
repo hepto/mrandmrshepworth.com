@@ -1,70 +1,60 @@
 ---
 layout: default
 ---
-
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top">
-        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-        <span class="light">Mr &amp; Mrs</span> Hepworth
+      <a class="navbar-brand" href="#home">
+        <i class="fa fa-heart"></i>
+        Mr &amp; Mrs <strong>Hepworth</strong>
       </a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
-        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-        <li class="hidden">
-          <a href="#page-top"></a>
+        <li>
+          <a href="#wedding">On the day</a>
         </li>
         <li>
-          <a class="page-scroll" href="#wedding">On the day</a>
+          <a href="#travel">Getting there</a>
         </li>
         <li>
-          <a class="page-scroll" href="#travel">Getting there</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#accommodation">Accommodation</a>
+          <a href="#accommodation">Accommodation</a>
         </li>
       </ul>
     </div>
-    <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container -->
-</nav>
+</div>
 
-<!-- Intro Header -->
-<header class="intro">
-  <div class="intro-body">
-    <div class="container">
-      <div class="row">
-        <h1 class="brand-heading">We're Getting Married!</h1>
-        <p class="intro-text">28th May 2016 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Larmer Tree Gardens</p>
-        <a href="#wedding" class="btn btn-circle page-scroll">
+<div id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h1>We're Getting Married!</h1>
+        <p>28th May 2016 <i class="fa fa-heart"></i> Larmer Tree Gardens</p>
+        <a href="#wedding" class="btn btn-circle">
           <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
         </a>
       </div>
     </div>
   </div>
-</header>
+</div>
 
-<section class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <p class="divider"><img src="img/arrowlr.png"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><img src="img/arrowrl.png"></p>
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section id="wedding" class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
+<div id="wedding" class="section">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <h2>The Wedding</h2>
         <ul>
@@ -83,138 +73,132 @@ layout: default
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <p class="divider"><img src="img/arrowlr.png"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><img src="img/arrowrl.png"></p>
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section id="venue" class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
+<div id="venue" class="section">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <h2>The Larmer Tree Gardens</h2>
-          <p>The <a target="_blank" href="http://www.larmertree.co.uk/gardens/">Larmer Tree Gardens</a> are 11 acres of ornate garden and beautiful surroundings so come prepared!  Feel free to bring rugs, sun-cream, panamas, umbrellas, wellie boots; ladies bring a change of shoes as we will be on grass and gravle - we reccomend flip flops or wedges.  Heels are acceptable for the lawns, if tyou do not mind the risk of sinking!</p>
+        <p>The <a target="_blank" href="http://www.larmertree.co.uk/gardens/">Larmer Tree Gardens</a> are 11 acres of ornate garden and beautiful surroundings so come prepared!  Feel free to bring rugs, sun-cream, panamas, umbrellas, wellie boots; ladies bring a change of shoes as we will be on grass and gravle - we reccomend flip flops or wedges.  Heels are acceptable for the lawns, if tyou do not mind the risk of sinking!</p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <p class="divider"><img src="img/arrowlr.png"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><img src="img/arrowrl.png"></p>
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section id="travel" class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-          <h2>Getting To (And From!) The Larmer Tree</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <p>Driving</p>
-          <p>The postcode for the Gardens is SP5 5PY, however most sat nav systems will send you to Rushmore Golf Course, so be careful!  The main approach roads are the A354 and A30, and from them you can follow the Brown Flower heritage signs.  For more details, check the <a href="http://www.larmertree.co.uk/directions/" target="_blank">Larmer Tree website.</a>
-        </div>
-        <div class="col-sm-4">
-          <p>Taxis</p>
-          <p>The Gardens are on the Dorest/Wiltshire border, in the middle of nowhere!  Please pre-book your tax before the day, as it will not be possible to hail a cab in the evening.<p>
-          <p>If you are looking for someone to share a cab with, or if you have space available then please <a href="mailto:rsvp@mrandmrshepworth.com">let us know</a> and we'll try to put people together.</p>
-        </div>
-        <div class="col-sm-4">
-          <p>Parking</p>
-          <p>There is a car park right next to the Gardens and free of charge.  You are welcome to leave cars over night, but this is at your own risk and the Larmer Tree is not responsible for your cars or belongings.</p>
-        </div>
+<div id="travel" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h2>Getting To (And From!) The Larmer Tree</h2>
       </div>
     </div>
-    <div id="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20108.050727861853!2d-2.082617!3d50.951342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873b776318bf3b5%3A0xc183f94e5ea23f3d!2sLarmer+Tree%2C+Tollard+Royal%2C+Salisbury%2C+Wiltshire+SP5+5PY%2C+UK!5e0!3m2!1sen!2suk!4v1432763413149"
+    <div class="row">
+      <div class="col-sm-4">
+        <h4>Driving</h4>
+        <p>The postcode for the Gardens is SP5 5PY, however most sat nav systems will send you to Rushmore Golf Course, so be careful!  The main approach roads are the A354 and A30, and from them you can follow the Brown Flower heritage signs.  For more details, check the <a href="http://www.larmertree.co.uk/directions/" target="_blank">Larmer Tree website.</a>
+      </div>
+      <div class="col-sm-4">
+        <h4>Taxis</h4>
+        <p>The Gardens are on the Dorest/Wiltshire border, in the middle of nowhere!  Please pre-book your tax before the day, as it will not be possible to hail a cab in the evening.<p>
+        <p>If you are looking for someone to share a cab with, or if you have space available then please <a href="mailto:rsvp@mrandmrshepworth.com">let us know</a> and we'll try to put people together.</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Parking</h4>
+        <p>There is a car park right next to the Gardens and free of charge.  You are welcome to leave cars over night, but this is at your own risk and the Larmer Tree is not responsible for your cars or belongings.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20108.050727861853!2d-2.082617!3d50.951342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873b776318bf3b5%3A0xc183f94e5ea23f3d!2sLarmer+Tree%2C+Tollard+Royal%2C+Salisbury%2C+Wiltshire+SP5+5PY%2C+UK!5e0!3m2!1sen!2suk!4v1432763413149"
       width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-    </div>
-  </div>
-</section>
-
-<section class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <p class="divider"><img src="img/arrowlr.png"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><img src="img/arrowrl.png"></p>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section id="accommodation" class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="accommodation" class="section">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <h2>Accommodation</h2>
-        <p>If you are planning to stay for the weekend, we recommend finding a hotel in Bournemouth and travelling to the Larmer Tree on the day, then taking the coach back.
-          <p>
-            <p>This will mean you are centrally located and close to us on the Sunday for the beach BBQ (details to follow!). Get in touch if you want advice on where to stay in Bournemouth.</p>
-            <p>For those of you who want to stay overnight near the Larmer Tree, here is a list of hotels and B&amp;B's in the local area.</p>
-            <p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#accommodation-list" aria-expanded="false" aria-controls="collapseExample">
-                Show Accommodation List
-              </button>
-            </p>
-
-            <div class="collapse" id="accommodation-list">
-
-              <div class="panel panel-default">
-                <table class="table">
-                  {% for accommodation in site.data.accommodations %}
-                  <tr>
-                    <td>
-                      {{ accommodation.name }}
-                    </td>
-                    <td>
-                      {{ accommodation.phone }}
-                    </td>
-                    <td class="hidden-xs">
-                      <a target="_blank" href="{{ accommodation.website }}">{{ accommodation.website }}</a>
-                    </td>
-                    <td class="hidden-sm hidden-md hidden-lg">
-                      <a target="_blank" href="{{ accommodation.website }}">Website</a>
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </table>
-              </div>
-
-            </div>
-      </div>
-
-
-    </div>
-  </div>
-</section>
-
-<section class="content-section text-center">
-  <div class="background-section">
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2">
-        <p class="divider"><img src="img/arrowlr.png"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><img src="img/arrowrl.png"></p>
+        <p>If you are planning to stay for the weekend, we recommend finding a hotel in Bournemouth and travelling to the Larmer Tree on the day, then taking the coach back.</p>
+        <p>This will mean you are centrally located and close to us on the Sunday for the beach BBQ (details to follow!). Get in touch if you want advice on where to stay in Bournemouth.</p>
+        <p>For those of you who want to stay overnight near the Larmer Tree, here is a list of hotels and B&amp;B's in the local area.</p>
+        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#accommodation-list" aria-expanded="false" aria-controls="collapseExample">Show Accommodation List</button></p>
+        <div class="collapse" id="accommodation-list">
+          <div class="panel panel-default">
+            <table class="table">
+              {% for accommodation in site.data.accommodations %}
+              <tr>
+                <td>
+                  {{ accommodation.name }}
+                </td>
+                <td>
+                  {{ accommodation.phone }}
+                </td>
+                <td class="hidden-xs">
+                  <a target="_blank" href="{{ accommodation.website }}">{{ accommodation.website }}</a>
+                </td>
+                <td class="hidden-sm hidden-md hidden-lg">
+                  <a target="_blank" href="{{ accommodation.website }}">Website</a>
+                </td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<footer>
-  <div class="container text-center">
-    <p>Mr &amp; Mrs Hepworth &bull; Larmer Tree Gardens &bull; 28th May 2016</p>
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
+      </div>
+    </div>
   </div>
-</footer>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Mr &amp; Mrs Hepworth &bull; Larmer Tree Gardens &bull; 28th May 2016</p>
+      </div>
+    </div>
+  </div>
+</div>
