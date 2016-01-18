@@ -12,13 +12,13 @@ $lighttexthover: darken($lighttext, 10%);
   font-family: "Pill Gothic";
   font-style: normal;
   font-weight: 400;
-  src: url("{{ "/fonts/Pill-Gothic-300mg/Pill_Gothic_300mg_Regular.ttf" | prepend: site.baseurl }}");
+  src: url("{{ "/fonts/e/e_regular.ttf" | prepend: site.baseurl }}");
 }
 @font-face {
   font-family: "Pill Gothic";
   font-style: normal;
   font-weight: 300;
-  src: url("{{ "/fonts/Pill-Gothic-300mg/Pill_Gothic_300mg_Light.ttf" | prepend: site.baseurl }}");
+  src: url("{{ "/fonts/e/e_light.ttf" | prepend: site.baseurl }}");
 }
 
 body {
