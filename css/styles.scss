@@ -1,312 +1,309 @@
 ---
 ---
-
-$primary: #42DCA3;
+$primary: rgb(130, 185, 164);
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@font-face {
+  font-family: 'Pill Gothic 300mg';
+  src: url(../fonts/Pill-Gothic-300mg/Pill_Gothic_300mg_Regular.ttf);
+}
 body {
-    width: 100%;
-    height: 100%;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 300;
-    color: #202020;
-    background-color: #fff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Pill Gothic 300mg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #202020;
+  background-color: #fff;
 }
-
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-
 p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-    @media(min-width:768px) {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  @media(min-width:768px) {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
 }
-
 a {
-    color: $primary;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    &:hover,
-    &:focus {
-        text-decoration: none;
-        color: darken($primary,20%);
-    }
+  color: $primary;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: darken($primary,20%);
+  }
 }
-
 .light {
-    font-weight: 400;
+  font-weight: 400;
 }
-
 .navbar-custom {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid fade(white, 30%);
+  text-transform: uppercase;
+  background: transparent;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+  &.top-nav-collapse {
+    padding: 0;
+    background: $primary;
     border-bottom: 1px solid fade(white, 30%);
-    text-transform: uppercase;
-    background: transparent;
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .navbar-brand {
+    font-weight: 700;
+    &:focus {
+      outline: none;
+    }
+    .navbar-toggle {
+      padding: 4px 6px;
+      font-size: 12px;
+      color: white;
+      &:focus,
+      &:active {
+        outline: none;
+      }
+    }
+  }
+  a {
+    color: #202020;
+  }
+  .nav {
+    background: white;
+    li {
+      a {
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+        &:hover {
+          color: fade(white, 80%);
+          outline: none;
+          background-color: transparent;
+        }
+        &:focus,
+        &:active {
+          outline: none;
+          background-color: transparent;
+        }
+      }
+      &.active {
+        outline: none;
+        a {
+          background-color: fade(white, 30%);
+          &:hover {
+            color: #202020;
+          }
+        }
+      }
+    }
+  }
+  @media(min-width:768px) {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
     &.top-nav-collapse {
-        padding: 0;
-        background: white;
-        border-bottom: 1px solid fade(white, 30%);
-    }
-    .navbar-brand {
-        font-weight: 700;
-        &:focus {
-            outline: none;
-        }
-        .navbar-toggle {
-            padding: 4px 6px;
-            font-size: 16px;
-            color: white;
-            &:focus,
-            &:active {
-                outline: none;
-            }
-        }
-    }
-    a {
-        color: #202020;
+      padding: 0;
     }
     .nav {
-		background: white;
-        li {
-            a {
-                -webkit-transition: background .3s ease-in-out;
-                -moz-transition: background .3s ease-in-out;
-                transition: background .3s ease-in-out;
-                &:hover {
-                    color: fade(white, 80%);
-                    outline: none;
-                    background-color: transparent;
-                }
-                &:focus,
-                &:active {
-                    outline: none;
-                    background-color: transparent;
-                }
-            }
-            &.active {
-                outline: none;
-                a {
-                    background-color: fade(white, 30%);
-                    &:hover {
-                        color: #202020;
-                    }
-                }
-            }
-        }
+      background: transparent;
     }
-    @media(min-width:768px) {
-        padding: 20px 0;
-        border-bottom: none;
-        letter-spacing: 1px;
-	    &.top-nav-collapse {
-	        padding: 0;
-		}
-		.nav {
-			background: transparent;
-		}
-    }
+  }
 }
-
 .intro {
-    display: table;
-    width: 100%;
-    height: 100%;
-    padding-top: 55px;
-    text-align: center;
-//	text-shadow: 0px 0px 2px #fff;
-    background: url(../img/main.jpg) no-repeat bottom center scroll;
-    background-color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    .intro-body {
-        display: table-cell;
-        vertical-align: top;
-        .brand-heading {
-            font-size: 22px;
-			font-weight: 300;
-			margin-bottom: 0;
-        }
-        .intro-text {
-            font-size: 18px;
-			margin-bottom: 0;
-        }
-    }
-    @media(min-width:768px) {
-		padding-top: 100px;
-        .intro-body {
-            .brand-heading {
-                font-size: 48px;
-            }
-            .intro-text {
-                font-size: 26px;
-				color: #202020;
-				margin-bottom: 10px;
-            }
-        }
-    }
-}
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-top: 55px;
+  text-align: center;
 
-.btn-circle {
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	bottom: 50px;
-    width: 50px;
-    height: 50px;
-    padding: 5px 6px;
-    border: 1px solid white;
-    border-radius: 100% !important;
-    font-size: 30px;
-    color: white;
-    background: transparent;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-    &:hover,
-    &:focus {
-        outline: none;
-        color: white;
-        background: fade(white, 10%);
+  //	text-shadow: 0px 0px 2px #fff;
+  background: url(../img/main.jpg) no-repeat bottom center scroll;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  .intro-body {
+    display: table-cell;
+    vertical-align: top;
+    .brand-heading {
+      font-size: 36px;
+      font-family: 'Amatic SC', 'Pill Gothic 300mg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      margin-bottom: 0;
     }
-    @media(min-width:768px) {
-	    width: 70px;
-	    height: 70px;
-	    padding: 9px 14px;
-	    font-size: 40px;
+    .intro-text {
+      font-size: 18px;
+      font-family: 'Dancing Script', 'Pill Gothic 300mg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin-bottom: 0;
+      .glyphicon {
+        font-size: 12px;
+        padding-left: 2px;
+        padding-right: 2px
+      }
     }
-}
-
-.content-section {
+  }
+  @media(min-width:768px) {
     padding-top: 100px;
-	a {
-		color: white;
-		text-decoration: underline;
-	}
-	h2 {
-		font-size: 26px;
-	}
-    @media(min-width:768px) {
-     	h2 {
-     		font-size: 30px;
-     	}
+    .intro-body {
+      .brand-heading {
+        font-size: 72px;
+      }
+      .intro-text {
+        font-size: 26px;
+        color: #202020;
+        margin-bottom: 10px;
+        .glyphicon {
+          font-size: 18px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
     }
+  }
 }
-
-.background-section {
-    width: 100%;
-    padding: 50px 0;
+.btn-circle {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 5px 6px;
+  border: 1px solid white;
+  border-radius: 100% !important;
+  font-size: 30px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    outline: none;
     color: white;
-    background-color: $primary;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	table {
-		color: #202020;
-		a {
-			color: #202020;
-		}
-	}
+    background: fade(white, 10%);
+  }
+  @media(min-width:768px) {
+    width: 70px;
+    height: 70px;
+    padding: 9px 14px;
+    font-size: 40px;
+  }
 }
-
+.content-section {
+  padding-top: 100px;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  h2 {
+    font-size: 26px;
+    font-family: 'Amatic SC', 'Pill Gothic 300mg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(64, 107, 101);
+  }
+  @media(min-width:768px) {
+    h2 {
+      font-size: 46px;
+    }
+  }
+}
+.background-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background-color: $primary;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  table {
+    color: #202020;
+    a {
+      color: #202020;
+    }
+  }
+}
 #map {
-    width: 100%;
-    height: 200px;
+  width: 100%;
+  height: 200px;
 }
-
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 100px;
-    }
-
-    .background-section {
-        padding: 50px 0;
-    }
-
-    #map {
-        height: 300px;
-    }
-}
-
-.btn {
-    text-transform: uppercase;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    border-radius: 0;
-}
-
-.btn-default {
-    border: 1px solid $primary;
-    color: $primary;
-    background-color: transparent;
-    &:hover,
-    &:focus {
-        border: 1px solid $primary;
-        outline: none;
-        color: black;
-        background-color: $primary;
-    }
-}
-
-footer {
+  .content-section {
+    padding-top: 100px;
+  }
+  .background-section {
     padding: 50px 0;
-	color: #606060;
-    p {
-        margin: 0;
-		color: #999;
-    }
+  }
+  #map {
+    height: 300px;
+  }
 }
-
-::-moz-selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+.btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
 }
-
-::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+.btn-default {
+  border: 1px solid $primary;
+  color: $primary;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    border: 1px solid $primary;
+    outline: none;
+    color: black;
+    background-color: $primary;
+  }
 }
-
+footer {
+  padding: 50px 0;
+  color: #606060;
+  p {
+    margin: 0;
+    color: #999;
+  }
+}
+ ::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: fade(white, 20%);
+}
+ ::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: fade(white, 20%);
+}
 img::selection {
-    background: transparent;
+  background: transparent;
 }
-
 img::-moz-selection {
-    background: transparent;
+  background: transparent;
 }
-
 body {
-    webkit-tap-highlight-color: fade(white, 20%);
+  webkit-tap-highlight-color: fade(white, 20%);
 }
