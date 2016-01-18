@@ -7,7 +7,7 @@ layout: default
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
         <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand" href="#home">
+      <a class="navbar-brand scroll" href="#home">
         <i class="fa fa-heart"></i>
         Mr &amp; Mrs <strong>Hepworth</strong>
       </a>
@@ -15,13 +15,19 @@ layout: default
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
         <li>
-          <a href="#wedding">On the day</a>
+          <a href="#theday" class="scroll">The Day</a>
         </li>
         <li>
-          <a href="#travel">Getting there</a>
+          <a href="#info" class="scroll">Info</a>
         </li>
         <li>
-          <a href="#accommodation">Accommodation</a>
+          <a href="#travel" class="scroll">Getting There</a>
+        </li>
+        <li>
+          <a href="#accommodation" class="scroll">Accommodation</a>
+        </li>
+        <li>
+          <a href="#bbq" class="scroll">BBQ</a>
         </li>
       </ul>
     </div>
@@ -34,8 +40,8 @@ layout: default
       <div class="col-sm-8 col-sm-offset-2">
         <h1>We're Getting Married!</h1>
         <p>28th May 2016 <i class="fa fa-heart"></i> Larmer Tree Gardens</p>
-        <a href="#wedding" class="btn btn-circle">
-          <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+        <a href="#wedding">
+          <i class="fa fa-angle-double-down"></i>
         </a>
       </div>
     </div>
@@ -52,23 +58,29 @@ layout: default
   </div>
 </div>
 
-<div id="wedding" class="section">
+<div id="theday" class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>The Wedding</h2>
-        <ul>
-          <li>12:30 - Day guests arrive</li>
+        <h2><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}">The Wedding of<img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"><br>
+        Miss Laura Dowling and Mr Gregory Hepworth</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Order of Service</h2>
+        <ul class="list-unstyled">
+          <li>12:30 - Day guests to arrive</li>
           <li>13:00 - Ceremony</li>
           <li>13:30 - Drinks Reception on the lawn</li>
           <li>15:30 - Wedding Breakfast</li>
-          <li>18:00 - Games on the lawn</li>
+          <li>18:00 - 20:30 - Games on the lawn</li>
           <li>18:30 - Evening guests arrive</li>
-          <li>18:30 - Speeches &amp; Cake</li>
-          <li>21:00 -</li>
-          <li>22:00 - Evening band starts</li>
+          <li>18:30 - Speeches &amp; Cake Cutting</li>
+          <li>20:30 - Retire to bar for dancing</li>
+          <li>22:00 - Evening music starts</li>
           <li>00:00 - Bride &amp; Groom leave</li>
-          <li>00:00 - Carriage</li>
+          <li>00:30 - Carriages</li>
         </ul>
       </div>
     </div>
@@ -85,12 +97,26 @@ layout: default
   </div>
 </div>
 
-<div id="venue" class="section">
+<div id="info" class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>The Larmer Tree Gardens</h2>
-        <p>The <a target="_blank" href="http://www.larmertree.co.uk/gardens/">Larmer Tree Gardens</a> are 11 acres of ornate garden and beautiful surroundings so come prepared!  Feel free to bring rugs, sun-cream, panamas, umbrellas, wellie boots; ladies bring a change of shoes as we will be on grass and gravle - we reccomend flip flops or wedges.  Heels are acceptable for the lawns, if tyou do not mind the risk of sinking!</p>
+      <div class="col-sm-8 col-sm-offset-2">
+        <h2>INFORMATION</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <h4>The Venue</h4>
+        <p>The <a target="_blank" href="http://www.larmertree.co.uk/gardens/">Larmer Tree Gardens</a> are 11 acres of ornate garden and beautiful surroundings so come prepared!  You'll have plenty of time to explore the grounds, see the pnds and peacocks and bask in some early summer sun!  Feel free to bring rugs, sun-cream, panamas, umbrellas, wellie boots!</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Dress Code</h4>
+        <p><strong>Summer Garden Party</strong></p>
+        <p>Most of the day will be outside on the Lawn so dress appropriately!  Heels are acceptable for the Ladies, but feel free to bring a change of shoes or we'll have some flip flops and heel stoppers for you also!</p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Wedding Breakfast</h4>
+        <p>We'll be serving a delicious feast to satisfy all tastes, but please <a href="mailto:{{ site.email }}">let us know</a> if you have any special dietary requirements.</p>
       </div>
     </div>
   </div>
@@ -116,7 +142,7 @@ layout: default
     <div class="row">
       <div class="col-sm-4">
         <h4>Driving</h4>
-        <p>The postcode for the Gardens is SP5 5PY, however most sat nav systems will send you to Rushmore Golf Course, so be careful!  The main approach roads are the A354 and A30, and from them you can follow the Brown Flower heritage signs.  For more details, check the <a href="http://www.larmertree.co.uk/directions/" target="_blank">Larmer Tree website.</a>
+        <p>The postcode for the Gardens is SP5 5PY, however most sat nav systems will send you to Rushmore Golf Course, so be careful!  The main approach roads are the A354 and A30, and from them you can follow the Brown Flower heritage signs.  For more details, check the <a href="http://www.larmertree.co.uk/directions/" target="_blank">Larmer Tree website.</a></p>
       </div>
       <div class="col-sm-4">
         <h4>Taxis</h4>
@@ -151,33 +177,35 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>Accommodation</h2>
-        <p>If you are planning to stay for the weekend, we recommend finding a hotel in Bournemouth and travelling to the Larmer Tree on the day, then taking the coach back.</p>
-        <p>This will mean you are centrally located and close to us on the Sunday for the beach BBQ (details to follow!). Get in touch if you want advice on where to stay in Bournemouth.</p>
-        <p>For those of you who want to stay overnight near the Larmer Tree, here is a list of hotels and B&amp;B's in the local area.</p>
-        <p><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#accommodation-list" aria-expanded="false" aria-controls="collapseExample">Show Accommodation List</button></p>
-        <div class="collapse" id="accommodation-list">
-          <div class="panel panel-default">
-            <table class="table">
-              {% for accommodation in site.data.accommodations %}
-              <tr>
-                <td>
-                  {{ accommodation.name }}
-                </td>
-                <td>
-                  {{ accommodation.phone }}
-                </td>
-                <td class="hidden-xs">
-                  <a target="_blank" href="{{ accommodation.website }}">{{ accommodation.website }}</a>
-                </td>
-                <td class="hidden-sm hidden-md hidden-lg">
-                  <a target="_blank" href="{{ accommodation.website }}">Website</a>
-                </td>
-              </tr>
-              {% endfor %}
-            </table>
-          </div>
-        </div>
+        <h2>Where To Stay</h2>
+        <p>The Larmer Tree is really in the middle of nowhere, though there are a couple of hotels nearby, and also some towns not too far away - Shaftesbury, Blandford and Wimborne are all close and have a selection of places to stay - but dont forget to book a cab!</p>
+        <p>However, don't forget that it is a Bank Holiday weekend, and so if you want to make a weekend of it, and join us for the wind down BBQ on the Sunday, then you might consider staying in Bournemouth so you will be centrally located.  Again, plenty of choice there, but book up quick and don't forget the cab!  (Please let us know your arrangements and we can try to help you with everything.)</p>
+        <p>You can also camp at the Larmer Tree, and stay in your campervan if you have one, but please tell us in advance if you want to do this.</p>
+        <p>Google, AirBNB, Expedia, Booking.com, etc will all do a far better job than we can of recommending hotels, but please if you feel a bit lost of want a bit of advice on what to do - just get in touch!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <p><img src="{{ "/images/arrowlr.png" | prepend: site.baseurl }}"><i class="fa fa-heart"></i><img src="{{ "/images/arrowrl.png" | prepend: site.baseurl }}"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="bbq" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h2>The BBQ</h2>
+        <h4>Sunday 29th May @ 14:00 <i class="fa fa-heart"></i> Branksome Dene</h4>
+        <p>It's a Bank Holiday, we've just got married and Summer has started so stay for the weekend and join us of the official wedding after party on Bournemouth Beach!</p>
+        <p>Yep, one day is just not enough so we'll be continuing on the Sunday with a relaxing afternoon on the Beach.  Just bring a burger, sausage, and a bun and join us.</p>
+        <p>We'll aim for the Brankome part of the Beach starting from about 14:00, so head that way and join us!</p>
       </div>
     </div>
   </div>
