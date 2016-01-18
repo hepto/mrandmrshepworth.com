@@ -7,7 +7,7 @@ $darktexthover: lighten($darktext, 10%);
 $lighttext: #fff;
 $lighttexthover: darken($lighttext, 10%);
 
-@import url("http://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400|Amatic+SC");
 @font-face {
   font-family: "Pill Gothic";
   font-style: normal;
@@ -22,7 +22,7 @@ $lighttexthover: darken($lighttext, 10%);
 }
 
 body {
-  font-family: "Pill Gothic", sans-serif;
+  font-family: "Pill Gothic", "Lato", sans-serif;
   font-weight: 300;
 }
 
